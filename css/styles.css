@@ -1,14 +1,11 @@
 body {
-    font-family: 'Roboto', 'Raleway';
-    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul, ol {
 	list-style-type: none;
-}
-
-.web-color {
-    color: #4D5AE5;
 }
 
 .studio-color {
@@ -16,10 +13,11 @@ ul, ol {
 }
 
 .studio-color-scd {
-    color: #F4F4FD;
+    color: #f4f4fd;
 }
 
 .webstudio {
+    color:  #4d5ae5;
     font-family: Raleway;
     font-weight: 700;
     font-style: normal;
@@ -111,7 +109,10 @@ p {
 
 .footer {
     background-color: #2E2F42;
+    font-family: "Raleway", sans-serif;
     width: 100%;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 .footer-slogan {
     color: #F4F4FD;
