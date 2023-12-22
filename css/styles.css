@@ -8,53 +8,12 @@ ul, ol {
 	list-style-type: none;
 }
 
-.studio-color {
-    color: #2E2F42;
-}
-
-.studio-color-scd {
-    color: #f4f4fd;
-}
-
-.webstudio {
-    color:  #4d5ae5;
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1.16;
-    text-transform: uppercase;
-}
-
-.nav-ul {
-    color: #2E2F42;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1;
-}
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
-a:hover {
-    color: #4D5AE5;
-}
 
-.address {
-    color: #434455;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.header {
-    background-color: #FFF;
-    width: 100%;  
-}
 
 h1,h2,h3,h4,h5,h6 {
  color: #2E2F42;
@@ -66,13 +25,76 @@ h1,h2,h3,h4,h5,h6 {
  text-transform: capitalize;
 }
 
-.hero {
-    background-color: #2E2F42;
-    width: 100%;
+p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-h1 {
-    color: #FFF;
+.header {
+    background-color: #FFFFFF;
+}
+
+
+.studio-color {
+    color: #2E2F42;
+}
+
+.studio-color-scd {
+    color: #f4f4fd;
+}
+
+.webstudio {
+    color:  #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.nav-ul {
+    color: #2E2F42;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+}
+
+
+.nav-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-item:hover, 
+.nav-item:focus {
+    color: #404bbf;
+}
+
+.address {
+    color: #434455;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: #404bbf;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.title {
+    color: #FFFFFF;
     font-weight: 700;
     font-style: normal;
     font-size: 56px;
@@ -93,20 +115,18 @@ h1 {
     cursor: pointer;
     letter-spacing: 0.04em;
 }
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
 .features {
-    background-color: #FFF;
-    width: 100%;
-
+    background-color: #FFFFFF;
 }
 
-p {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-}
 .team {
     background-color: #F4F4FD;
-    width: 100%;
     text-align: center;
 }
 
@@ -117,7 +137,6 @@ p {
 .footer {
     background-color: #2E2F42;
     font-family: "Raleway", sans-serif;
-    width: 100%;
     line-height: 1.17;
     letter-spacing: 0.02em;
 }
