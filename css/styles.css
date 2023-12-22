@@ -29,6 +29,7 @@ p {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 .header {
@@ -70,8 +71,8 @@ p {
     letter-spacing: 0.02em;
 }
 
-.nav-item:hover, 
-.nav-item:focus {
+.nav-item-link:hover, 
+.nav-item-link:focus {
     color: #404bbf;
 }
 
@@ -125,9 +126,24 @@ p {
     background-color: #FFFFFF;
 }
 
+.features-discription {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.features-p {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
 .team {
     background-color: #F4F4FD;
     text-align: center;
+}
+
+.team-discription {
+    background-color: #FFFFFF;
 }
 
 .portfolio {
