@@ -24,7 +24,6 @@ ul, ol {
     font-style: normal;
     font-size: 18px;
     line-height: 1.16;
-    text-decoration: none;
 }
 
 .nav-ul {
@@ -33,7 +32,11 @@ ul, ol {
     font-style: normal;
     font-size: 18px;
     line-height: 1;
+}
+
+a {
     text-decoration: none;
+    color: inherit;
 }
 
 .address {
@@ -42,7 +45,6 @@ ul, ol {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
 }
 
 .header {
@@ -77,6 +79,7 @@ h1 {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
+    border: none;
 }
 .features {
     background-color: #FFF;
