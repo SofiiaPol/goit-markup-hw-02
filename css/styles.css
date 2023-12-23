@@ -150,6 +150,12 @@ p {
     background-color: #FFFFFF;
 }
 
+.portfolio-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .footer {
     background-color: #2E2F42;
     font-family: "Raleway", sans-serif;
